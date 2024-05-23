@@ -7,65 +7,56 @@
     <link rel="stylesheet" href="./styles/styles.css">
     <script defer src="./scripts/script.mjs"></script>
 </head>
-<body>
 
-    <header>
-        <ul>
-            <li class="link1"><a href="#"><i>Said<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Masih<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Sajady</i></a></li>
-            <li class="link2"><a href="#">My Quiz!<br><hr>
-                How much you know me?
-                </a></li>
-            <li class="link1" id="username"><a href="#"><i>The Quiz&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<br>Player Is:&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<br>???&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</i></a></li>
+    <body>
 
-        </ul>
-    </header>
+        <header>
+            <ul>
+                <li class="link1"><a href="#"><i>Said<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Masih<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Sajady</i></a></li>
+                <li class="link2"><a href="#">My Quiz!<br><hr>How much you know me?</a></li>
+                <li class="link1" id="username"><a href="#"><i>The Quiz&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<br>Player Is:&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<br>???&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</i></a></li>
+            </ul>
+        </header>
 
-    <section class="continer">
-
-        <b id="questionNumber">TEST</b>
-
-        <b id="totalScore">TEST2</b>
-        
-        <div id="question">
-            <h2>Placeholder! For Question</h2>
-        </div>
-
-
-
-        <fieldset id="questionOptions">
-            <legend id="questionBasics">Select one of the following options:</legend>
-          
-            <div>
-              <input type="radio" id="option1" name="drone" value="huey" checked />
-              <label for="huey"></label>
-            </div>
-          
-            <div>
-              <input type="radio" id="option2" name="drone" value="dewey" />
-              <label for="dewey"></label>
-            </div>
-          
-            <div>
-              <input type="radio" id="option3" name="drone" value="louie" />
-              <label for="louie"></label>
-            </div>
-
-            <div>
-                <input type="radio" id="option4" name="drone" value="louie" />
-                <label for="louie"></label>
-            </div>
-
-          </fieldset>
-
-        <div>
-            <button id="submitBtn" type="button">Submit</button>
-        </div>
-        
-        <div id="result">
+        <section class="container">
+            <b id="questionNumber">Question Number</b>
+            <b id="totalScore">Score: 0</b>
             
-        </div>
+            <div id="question">
+                <h2>Placeholder! For Question</h2>
+            </div>
 
-    </section>
-    
-</body>
+            <fieldset id="questionOptions">
+                <legend id="questionBasics">Select from the following options:</legend>
+            
+                <div>
+                <input type="radio" id="option1" name="drone" value="option1" checked />
+                <label for="option1"></label>
+                </div>
+            
+                <div>
+                <input type="radio" id="option2" name="drone" value="option2" />
+                <label for="option2"></label>
+                </div>
+            
+                <div>
+                <input type="radio" id="option3" name="drone" value="option3" />
+                <label for="option3"></label>
+                </div>
+
+                <div>
+                    <input type="radio" id="option4" name="drone" value="option4" />
+                    <label for="option4"></label>
+                </div>
+            </fieldset>
+
+            <div>
+                <button id="submitBtn" type="button">Submit</button>
+            </div>
+            
+            <div id="result"></div>
+        </section>
+
+    </body>
+
 </html>
